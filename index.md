@@ -1,6 +1,7 @@
 ---
-layout: home
-title: Allez API Documentation
+layout: Default
+title: Allez documentation
+nav_order: 1
 ---
 
 # Welcome to the Allez API
