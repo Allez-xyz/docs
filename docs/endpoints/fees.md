@@ -3,7 +3,7 @@ layout: default
 title: API Reference
 nav_order: 3
 has_children: true
-permalink: /api-reference/
+permalink: /api-reference/fees
 ---
 
 Hello

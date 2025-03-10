@@ -1,5 +1,5 @@
 ---
-layout: Default
+layout: default
 title: Allez documentation
 nav_order: 1
 ---
