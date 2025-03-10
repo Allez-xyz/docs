@@ -1,0 +1,12 @@
+title: Allez API Documentation
+description: Documentation for the Allez API
+url: https://docs.allez.xyz
+
+# Choose a theme (you can use GitHub's supported themes)
+theme: minima
+
+# Optional: Configure navigation
+header_pages:
+  - index.md
+  - api-reference.md
+  - getting-started.md
