@@ -1,0 +1,6 @@
+site_name: Allez API documentation
+theme: readthedocs
+
+nav:
+  - Home: index.md
+  - API: api-reference.md
