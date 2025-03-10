@@ -5,7 +5,7 @@ title: Allez API Documentation
 
 # Welcome to the Allez API
 
-The Allez API provides developers with tools to integrate our services into their applications. This documentation will help you get started with implementing our API.
+The Allez API provides developers with tools to integrate our services into their applications. This documentation will help you get started with using our API
 
 ## Documentation
 
