@@ -1,4 +1,9 @@
 site_name: Allez API documentation
+site_url: https://docs.allez.xyz
+site_author: Allez
+site_description: >-
+  Allez API documentation
+
 theme: readthedocs
 
 nav:

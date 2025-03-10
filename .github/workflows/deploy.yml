@@ -28,7 +28,7 @@ jobs:
           pip install mkdocs-material
 
       - name: Create CNAME file
-        run: echo "docs.allez.xyz" > ./docs/CNAME
+        run: echo "docs.allez.xyz" > ./site/CNAME
 
       - name: Configure Git
         run: |
