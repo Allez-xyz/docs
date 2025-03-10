@@ -5,13 +5,16 @@ url: https://docs.allez.xyz
 # Choose a theme (you can use GitHub's supported themes)
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
-
 logo: assets/images/allez_logo.jpg
-
 footer_content: "2025 Allez"
-
 # Optional: Configure navigation
 header_pages:
   - index.md
   - api-reference.md
   - getting-started.md
+
+
+# Enable plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
