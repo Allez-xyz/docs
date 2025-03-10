@@ -1,16 +1,17 @@
 ---
 layout: default
-title: Allez documentation
+title: Allez docs
 nav_order: 1
 ---
 
-# Welcome to the Allez API
+# Welcome to the Allez Documentation
 
-The Allez API provides developers with tools to integrate our services into their applications. This documentation will help you get started with using our API
+Welcome to Allez's comprehensive documentation portal! Here you'll find everything you need to integrate and make the most of our services.
 
-## Documentation
+## What You'll Find Here
 
-Our documentation is organized into the following sections:
+- **API Documentation**: Detailed documentation of our public API endpoints.
+- **Dashboards**: References to our dashboards. 
+- **Resources**: Specs
 
-- [**Getting Started**](/docs/getting-started): Learn how to set up and make your first API request
-- [**API Reference**](/docs/api-reference): Complete reference for all available endpoints and parameters
+Whether you're just getting started or looking to optimize your existing integration, our documentation is designed to provide clear, practical guidance for developers at all levels.
