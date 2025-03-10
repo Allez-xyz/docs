@@ -5,7 +5,9 @@ url: https://docs.allez.xyz
 # Choose a theme (you can use GitHub's supported themes)
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
-logo: assets/images/allez_logo.jpg
+logo: /assets/images/allez_logo.jpg
+
+favicon_ico: /assets/favicon/favicon.ico
 
 
 footer_content: "Allez Labs, 2025"
