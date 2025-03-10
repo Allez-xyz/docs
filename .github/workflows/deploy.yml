@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdocs gh-deploy --force
           # Create a CNAME file in the site directory
-          echo "docs.yourdomain.com" > ./site/CNAME
+          echo "docs.allez.xyz" > ./site/CNAME
           # Force push to gh-pages branch
           cd site
           git init
