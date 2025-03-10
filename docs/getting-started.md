@@ -7,4 +7,4 @@ permalink: /getting-started/
 
 # API Reference
 
-Documentation for the Allez API endpoints...
+Documentation for getting started

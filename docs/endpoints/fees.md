@@ -1,9 +1,10 @@
 ---
 layout: default
-title: API Reference
+title: Fees
+parent: API Reference
 nav_order: 4
 has_children: true
 permalink: /api-reference/fees
 ---
 
-Hello
+Hello allez fees api
