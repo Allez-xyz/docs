@@ -1,0 +1,37 @@
+name: Deploy MkDocs
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs
+          # Add any other themes or plugins you need
+          pip install mkdocs-material
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "github-actions@github.com"
+      - name: Deploy documentation
+        run: |
+          mkdocs gh-deploy --force
+          # Create a CNAME file in the site directory
+          echo "docs.yourdomain.com" > ./site/CNAME
+          # Force push to gh-pages branch
+          cd site
+          git init
+          git add .
+          git commit -m "Deploy documentation updates"
+          git push --force https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} main:gh-pages
