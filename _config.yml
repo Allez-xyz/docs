@@ -10,9 +10,6 @@ logo: /assets/images/allez_logo.jpg
 favicon_ico: /assets/favicon/favicon.ico
 
 
-footer_content: "Allez Labs, 2025"
-
-
 # Enable plugins
 plugins:
   - jekyll-remote-theme
