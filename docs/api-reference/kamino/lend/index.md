@@ -2,7 +2,7 @@
 layout: default
 title: Kamino lend
 parent: Kamino
-permalink: /api-reference/kamino/lend/
+permalink: /api/kamino/lend/
 nav_order: 1
 has_children: true
 ---

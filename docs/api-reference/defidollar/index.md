@@ -2,7 +2,7 @@
 layout: default
 title: DeFi Dollar
 parent: API Reference
-permalink: /api-reference/defi-dollar/
+permalink: /api/defi-dollar/
 nav_order: 2
 has_children: true
 ---

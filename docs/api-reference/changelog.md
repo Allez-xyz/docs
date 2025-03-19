@@ -2,13 +2,13 @@
 layout: default
 title: Changelog
 parent: API Reference
-permalink: /api-reference/changelog/
+permalink: /api/changelog/
 has_children: false
 ---
 
 ### Deprecated
-> **Deprecation Notice** (March 19, 2024)  
-> The following Kamino-specific endpoints have been deprecated and will be removed in a future release:
+> **Deprecation Notice** (March 18th, 2024)  
+> The following Kamino-specific endpoints will be deprecated soon (i.e. not maintained anymore) and removed in a future release:
 > - `/kamino/tvl`
 > - `/kamino/fees`
 > 

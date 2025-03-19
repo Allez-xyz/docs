@@ -2,7 +2,7 @@
 layout: default
 title: Reserves
 parent: Kamino lend
-permalink: /api-reference/kamino/lend/reserves/
+permalink: /api/kamino/lend/reserves/
 nav_order: 4
 ---
 

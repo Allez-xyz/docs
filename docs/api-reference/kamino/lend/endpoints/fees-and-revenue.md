@@ -2,7 +2,7 @@
 layout: default
 title: Fees and revenue
 parent: Kamino lend
-permalink: /api-reference/kamino/lend/fees-and-revenue/
+permalink: /api/kamino/lend/fees-and-revenue/
 nav_order: 2
 ---
 

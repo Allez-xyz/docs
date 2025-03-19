@@ -1,7 +1,7 @@
 ---
 layout: default
 title: API Reference
-permalink: /api-reference/
+permalink: /api/
 nav_order: 2
 has_children: true
 has_toc: false
@@ -24,9 +24,9 @@ The Allez API suite offers a collection of endpoints designed to help you integr
 
 | API | Description | Status |
 |-----|-------------|---------|
-| [Kamino](/api-reference/kamino) | Access comprehensive data about the Kamino protocol, including fees, revenue,  information | Testing |
-| [Prices](/api-reference/prices) | Access price data aggregated from multiple sources | Dev |
-| [Liquidity](/api-reference/liquidity) | Access liquidity data aggregated from multiple sources | Dev |
+| [Kamino](/api/kamino) | Access comprehensive data about the Kamino protocol, including fees, revenue,  information | Testing |
+| [Prices](/api/prices) | Access price data aggregated from multiple sources | Dev |
+| [Liquidity](/api/liquidity) | Access liquidity data aggregated from multiple sources | Dev |
 
 ## Base link
 All endpoints are served over HTTPS, the base link is the following:
